@@ -12,7 +12,7 @@
         }
 
         // WhatsApp Dinámico
-        function contactWhatsApp(mensajeAdicional) {
+        function contactWhatsApp() {
             const whatsappNumber = "593992475765"; 
             const mensaje = '¡Hola LDC Chaguarpamba! 🏆. Quisiera recibir más información acerca de las inscripciones y los requisitos. Muchas gracias.';
             const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(mensaje)}`;
@@ -121,3 +121,4 @@
 
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
+
