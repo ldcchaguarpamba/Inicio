@@ -13,8 +13,8 @@
 
         // WhatsApp Dinámico
         function contactWhatsApp(mensajeAdicional) {
-            const whatsappNumber = "593991695566"; 
-            const mensaje = `Hola LDC Chaguarpamba. ${mensajeAdicional}`;
+            const whatsappNumber = "593992475765"; 
+            const mensaje = '¡Hola LDC Chaguarpamba! 🏆. Quisiera recibir más información acerca de las inscripciones y los requisitos. Muchas gracias.';
             const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(mensaje)}`;
             window.open(url, '_blank');
         }
